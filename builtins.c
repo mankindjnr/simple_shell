@@ -63,7 +63,7 @@ int shell_help(char **args __attribute__((unused)))
 
 	write(STDOUT_FILENO, owners, strlen(owners));
 	_putchar('\n');
-        write(STDOUT_FILENO, builtins, strlen(builtins));
+	write(STDOUT_FILENO, builtins, strlen(builtins));
 	_putchar('\n');
 
 	for (i = 0; i < num_of_builtins(); i++)
